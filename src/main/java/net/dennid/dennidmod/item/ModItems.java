@@ -16,10 +16,12 @@ public class ModItems {
 
     }
     public static final Item RUBIE = registerItem("rubie", new Item(new Item.Settings()));
+    public static final Item BLACK_RUBIE = registerItem("Black_Rubie", new Item(new Item.Settings()));
     public static void registermoditems() {
         DennidMods.LOGGER.info("Registring mod items for " + DennidMods.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(RUBIE);
+            entries.add(BLACK_RUBIE);
         });
 
     }
