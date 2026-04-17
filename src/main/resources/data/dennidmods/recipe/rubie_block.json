@@ -1,0 +1,18 @@
+{
+"type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key" : {
+    "#": {
+      "item" : "dennidmods:rubie"
+    }
+  },
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id" : "dennidmods:red_rubie_block"
+  }
+}

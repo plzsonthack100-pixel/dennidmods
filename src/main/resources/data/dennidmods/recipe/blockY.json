@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients":[
+    {
+    "item": "dennidmods:yellow_rubie"
+  }],
+  "result": {
+    "count": 9,
+    "id": "dennidmods:ryellow"
+  }
+}

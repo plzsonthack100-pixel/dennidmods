@@ -1,0 +1,18 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key":{
+    "#" : {
+    "item": "dennidmods:bluer"
+  }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id" : "dennidmods:blue_rubieb"
+  }
+}

@@ -1,4 +1,14 @@
 {
   "item.dennidmods.rubie" : "rubie",
-  "item.dennidmods.blackr" : "black rubie"
+  "item.dennidmods.blackr" : "black rubie",
+  "item.dennidmods.bluer" : "blue rubie",
+  "item.dennidmods.greenr" : "green rubie",
+  "item.dennidmods.rainbowr" : "rainbow rubie",
+  "block.dennidmods.red_rubie_block" : "red rubie block",
+  "block.dennidmods.green_rubie_block" : "green rubie block",
+  "itemgroup.dennidmods.dennid_mod" : "Dennidmod",
+  "block.dennidmods.rainbow_rubie_block" : "rainbow rubie block",
+  "item.dennidmods.ryellow" : "yellow rubie",
+  "block.dennidmods.yellow_rubie" : "yellow rubie block",
+  "block.dennidmods.blue_rubieb" : "bluer rubie block"
 }
