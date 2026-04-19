@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "!": {
+      "item": "minecraft:sticks"
+    }
+  },
+  "pattern": [
+    "#",
+    "!",
+    ""
+  ],
+  "result": {
+    "count": 1,
+   "id": "dennidmods:chisel"
+}}

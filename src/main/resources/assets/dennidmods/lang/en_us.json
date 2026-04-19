@@ -10,5 +10,9 @@
   "block.dennidmods.rainbow_rubie_block" : "rainbow rubie block",
   "item.dennidmods.ryellow" : "yellow rubie",
   "block.dennidmods.yellow_rubie" : "yellow rubie block",
-  "block.dennidmods.blue_rubieb" : "bluer rubie block"
+  "block.dennidmods.blue_rubieb" : "bluer rubie block",
+  "item.dennidmods.souvlaki": "souvlaki",
+  "item.dennidmods.cut_potato": "cut potato",
+  "item.dennidmods.pita" : "pita",
+  "item.dennidmods.gyros": "gyros"
 }

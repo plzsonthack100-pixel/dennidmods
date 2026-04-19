@@ -29,6 +29,11 @@ public class ItemGroups {
                                 entries.add(ModItems.GREENR);
                                 entries.add(ModItems.RAINBOWR);
                                 entries.add(ModItems.RYELLOW);
+                                entries.add(ModItems.SOUVLAKI);
+                                entries.add(ModItems.GUROS);
+                                entries.add(ModItems.PIT);
+                                entries.add(ModItems.POT);
+                                entries.add(ModItems.CHISEL);
 
 
                             })
