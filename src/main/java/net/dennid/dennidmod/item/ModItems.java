@@ -32,6 +32,8 @@ public class ModItems {
     public static Item POT = registermoditems("cut_potato", new Item(new Item.Settings().food(FoodComponents.BAKED_POTATO)));
     public static Item PIT = registermoditems("pita", new Item(new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
     public static Item CHISEL = registermoditems("chisel", new ChiselItem(new Item.Settings().maxDamage(80)));
+    public static Item ENRRUBIE = registermoditems("enchanted_rainbow_rubie", new Item(new Item.Settings()));
+
 
 
 

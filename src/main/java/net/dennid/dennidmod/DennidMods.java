@@ -1,6 +1,8 @@
 package net.dennid.dennidmod;
 
+
 import net.dennid.dennidmod.block.ModBlocks;
+import net.dennid.dennidmod.item.ChiselItem;
 import net.dennid.dennidmod.item.ItemGroups;
 import net.dennid.dennidmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,6 +21,7 @@ public class DennidMods implements ModInitializer {
         ModItems.register();
         ModBlocks.RMB();
         ItemGroups.RegisterItemGroup();
+
 
 	}
 }

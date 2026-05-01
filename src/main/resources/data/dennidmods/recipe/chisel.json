@@ -1,18 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:iron_ingot"
     },
     "!": {
-      "item": "minecraft:sticks"
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "#",
-    "!",
-    ""
+    "#  ",
+    "!  ",
+    "   "
   ],
   "result": {
     "count": 1,

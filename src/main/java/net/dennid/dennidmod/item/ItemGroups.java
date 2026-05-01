@@ -23,6 +23,7 @@ public class ItemGroups {
                                 entries.add((ModBlocks.BBLOCK));
                                 entries.add((ModBlocks.YRUBIE));
                                 entries.add((ModBlocks.BRUBIE));
+                                entries.add(ModBlocks.GBLOCK);
                                 entries.add(ModItems.RUBIE);
                                 entries.add(ModItems.BLUER);
                                 entries.add(ModItems.BLACKR);
@@ -34,6 +35,8 @@ public class ItemGroups {
                                 entries.add(ModItems.PIT);
                                 entries.add(ModItems.POT);
                                 entries.add(ModItems.CHISEL);
+                                entries.add(ModItems.ENRRUBIE);
+
 
 
                             })

@@ -23,8 +23,11 @@ public class ModBlocks {
     public static final Block YRUBIE = RegisterBM("yellow_rubie", new Block(AbstractBlock.Settings.copy(GRUBIEB)));
     public static final Block BRUBIE = RegisterBM("black_rubieb", new Block(AbstractBlock.Settings.copy(GRUBIEB)));
     public static final Block BBLOCK = RegisterBM("blue_rubieb", new Block(AbstractBlock.Settings.copy(GRUBIEB)));
+    public static final Block GBLOCK= RegisterBM("god_block", new GodsBlock(AbstractBlock.Settings.create().strength(0.70f).requiresTool()));
     public static void RMB(){
+
         DennidMods.LOGGER.info("Registring blocks for " + DennidMods.MOD_ID);
+
 
 
     }

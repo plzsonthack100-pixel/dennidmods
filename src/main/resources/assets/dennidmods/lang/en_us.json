@@ -14,5 +14,9 @@
   "item.dennidmods.souvlaki": "souvlaki",
   "item.dennidmods.cut_potato": "cut potato",
   "item.dennidmods.pita" : "pita",
-  "item.dennidmods.gyros": "gyros"
+  "item.dennidmods.gyros": "gyros",
+  "item.dennidmods.chisel": "GodHelper",
+  "item.dennidmods.black_rubieb": "Black rubie block",
+  "block.dennidmods.god_block": "godblock",
+  "item.dennidmods.enchanted_rainbow_rubie": "enchanted rainbow rubie"
 }
