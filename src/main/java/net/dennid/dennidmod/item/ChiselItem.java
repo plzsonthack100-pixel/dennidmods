@@ -1,6 +1,7 @@
 package net.dennid.dennidmod.item;
 
 
+import net.dennid.dennidmod.OTJS.OTJS;
 import net.dennid.dennidmod.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -57,27 +58,27 @@ public class ChiselItem extends Item {
                     PlayerEntity a = context.getPlayer();
                     i = i+60;
                     System.out.println(i);
-                    o(a);
+                    OTJS.o(a);
 
                 }
                 if(block == Blocks.NETHERITE_BLOCK){
                     PlayerEntity a = context.getPlayer();
                     i = i+100;
                     System.out.println(i);
-                    o(a);
+                    OTJS.o(a);
                 }
                 if(block == Blocks.GOLD_BLOCK){
                     PlayerEntity a = context.getPlayer();
                     i = i+30;
                     System.out.println(i);
-                   o(a);
+                    OTJS.o(a);
 
                 }
                 if(block == ModBlocks.RRUBIE_BLOCK){
                     PlayerEntity a = context.getPlayer();
                     i = i+400;
                     System.out.println(i);
-                    o(a);
+                    OTJS.o(a);
                 }
 
 
@@ -89,11 +90,7 @@ public class ChiselItem extends Item {
         }
         return ActionResult.SUCCESS;
     }
-    public static void o(PlayerEntity a){
-        if(i > 500){
 
-            a.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE , 9999, 1, true, true));
-        }}
 }
 
 
