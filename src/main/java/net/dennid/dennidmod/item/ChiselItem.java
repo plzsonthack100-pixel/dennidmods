@@ -92,7 +92,7 @@ public class ChiselItem extends Item {
     public static void o(PlayerEntity a){
         if(i > 500){
 
-            a.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE , 2, 3, true, true));
+            a.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE , 9999, 1, true, true));
         }}
 }
 
