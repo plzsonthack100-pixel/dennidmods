@@ -1,31 +1,20 @@
 package net.dennid.dennidmod.item;
 
 
-import net.dennid.dennidmod.OTJS.OTJS;
+import net.dennid.dennidmod.OTJS.Curses;
 import net.dennid.dennidmod.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.ChainBlock;
-import net.minecraft.block.NetherrackBlock;
-import net.minecraft.client.network.ClientPlayerEntity;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.Util;
 import net.minecraft.world.World;
 
 import java.util.Map;
-import net.dennid.dennidmod.DennidMods;
-import net.dennid.dennidmod.DennidMods;import net.dennid.dennidmod.DennidMods;import net.dennid.dennidmod.DennidMods;
-import net.dennid.dennidmod.DennidMods;import net.dennid.dennidmod.DennidMods;import net.dennid.dennidmod.DennidMods;import net.dennid.dennidmod.DennidMods;import net.dennid.dennidmod.DennidMods;import net.dennid.dennidmod.DennidMods;import net.dennid.dennidmod.DennidMods;
 
 public class ChiselItem extends Item {
     public static int i = 100;
@@ -34,7 +23,9 @@ public class ChiselItem extends Item {
                     Blocks.DIAMOND_BLOCK, Blocks.AIR,
                     Blocks.NETHERITE_BLOCK, Blocks.AIR,
                     Blocks.GOLD_BLOCK, Blocks.AIR,
-                    ModBlocks.RRUBIE, Blocks.AIR
+                    ModBlocks.RRUBIE, Blocks.AIR,
+                    Blocks.DIRT, Blocks.AIR,
+                    Blocks.GRASS_BLOCK, Blocks.AIR
 
 
     );
@@ -57,28 +48,36 @@ public class ChiselItem extends Item {
                 if(block == Blocks.DIAMOND_BLOCK){
                     PlayerEntity a = context.getPlayer();
                     i = i+60;
-                    System.out.println(i);
-                    OTJS.o(a);
+                    Curses.o(a);
 
                 }
                 if(block == Blocks.NETHERITE_BLOCK){
                     PlayerEntity a = context.getPlayer();
                     i = i+100;
-                    System.out.println(i);
-                    OTJS.o(a);
+                    Curses.o(a);
                 }
                 if(block == Blocks.GOLD_BLOCK){
                     PlayerEntity a = context.getPlayer();
                     i = i+30;
-                    System.out.println(i);
-                    OTJS.o(a);
+                    Curses.o(a);
 
                 }
                 if(block == ModBlocks.RRUBIE_BLOCK){
                     PlayerEntity a = context.getPlayer();
                     i = i+400;
-                    System.out.println(i);
-                    OTJS.o(a);
+                    Curses.o(a);
+                }
+                if(block == Blocks.GRASS_BLOCK){
+                    PlayerEntity a = context.getPlayer();
+                    i = i-40;
+                    Curses.o(a);
+
+                }
+                if(block == Blocks.DIRT){
+                    PlayerEntity a = context.getPlayer();
+                    i = i-40;
+                    Curses.o(a);
+
                 }
 
 
