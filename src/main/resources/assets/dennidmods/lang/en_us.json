@@ -18,5 +18,11 @@
   "item.dennidmods.chisel": "GodHelper",
   "block.dennidmods.black_rubieb": "Black rubie block",
   "block.dennidmods.god_block": "godblock",
-  "item.dennidmods.enchanted_rainbow_rubie": "enchanted rainbow rubie"
+  "item.dennidmods.enchanted_rainbow_rubie": "enchanted rainbow rubie",
+  "tooltip.dennidmods.GodsBlock.tooltip" : "§cThis block is a gift from gods so you can acces some of the strongest item if you have good karma§r",
+  "tooltip.dennidmods.ChiselItem.tooltipsift": "This item gives you good karma when you destroy a block,with that karma you can do some things )",
+  "tooltip.dennidmods.ChiselItem.tooltipsi" : "This item give you good karma when you...(press sift for more info)",
+  "tooltip.dennidmods.ChiselItem.tooltipsifts" : "but be cearfull if you sucurfise to gods something that is not worthit you might lose ",
+  "tooltip.dennidmods.GodsBlock.tooltip2" : "karma points"
+
 }

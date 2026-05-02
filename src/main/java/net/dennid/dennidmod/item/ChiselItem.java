@@ -5,15 +5,20 @@ import net.dennid.dennidmod.OTJS.Curses;
 import net.dennid.dennidmod.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
 
+import java.util.List;
 import java.util.Map;
 
 public class ChiselItem extends Item {
@@ -23,7 +28,6 @@ public class ChiselItem extends Item {
                     Blocks.DIAMOND_BLOCK, Blocks.AIR,
                     Blocks.NETHERITE_BLOCK, Blocks.AIR,
                     Blocks.GOLD_BLOCK, Blocks.AIR,
-                    ModBlocks.RRUBIE, Blocks.AIR,
                     Blocks.DIRT, Blocks.AIR,
                     Blocks.GRASS_BLOCK, Blocks.AIR
 
@@ -62,11 +66,7 @@ public class ChiselItem extends Item {
                     Curses.o(a);
 
                 }
-                if(block == ModBlocks.RRUBIE_BLOCK){
-                    PlayerEntity a = context.getPlayer();
-                    i = i+400;
-                    Curses.o(a);
-                }
+
                 if(block == Blocks.GRASS_BLOCK){
                     PlayerEntity a = context.getPlayer();
                     i = i-40;
@@ -86,10 +86,26 @@ public class ChiselItem extends Item {
 
 
 
+
         }
+
         return ActionResult.SUCCESS;
     }
 
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        if(Screen.hasShiftDown()){
+            tooltip.add(Text.translatable("tooltip.dennidmods.ChiselItem.tooltipsift"));
+            tooltip.add(Text.translatable("tooltip.dennidmods.ChiselItem.tooltipsifts"));
+
+        }else{
+            tooltip.add(Text.translatable("tooltip.dennidmods.ChiselItem.tooltipsi"));
+        }
+
+
+
+        super.appendTooltip(stack, context, tooltip, type);
+    }
 }
 
 
