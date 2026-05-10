@@ -33,6 +33,12 @@ public class ModItems {
     public static Item PIT = registermoditems("pita", new Item(new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
     public static Item CHISEL = registermoditems("chisel", new ChiselItem(new Item.Settings().maxDamage(80)));
     public static Item ENRRUBIE = registermoditems("enchanted_rainbow_rubie", new Item(new Item.Settings()));
+    public static Item RUBIE_PIC = registermoditems("rubie_pickaxe", new PickaxeItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBIE, 4
+    , -2.4f))));
+    public static Item RUBIE_SWO = registermoditems("rubie_sword", new SwordItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials
+                    .RUBIE, 6, -2.6f))));
+    public static Item RUBIE_AXE = registermoditems("rubie_axe", new AxeItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials
+            .RUBIE, 7, -2.3f))));
 
 
 

@@ -3,6 +3,7 @@ package net.dennid.dennidmod.block;
 import net.dennid.dennidmod.DennidMods;
 import net.dennid.dennidmod.item.ChiselItem;
 import net.dennid.dennidmod.item.ModItems;
+import net.dennid.dennidmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -42,10 +43,11 @@ public class GodsBlock extends Block {
 
 
     if(entity instanceof ItemEntity item){
+
         if(ChiselItem.i > 50){
             ChiselItem.i = ChiselItem.i -10;
             System.out.println(ChiselItem.i);
-            if(item.getStack().getItem() == ModItems.RAINBOWR){
+            if(isValidItem(item.getStack())){
                 item.setStack(new ItemStack(ModItems.ENRRUBIE, item.getStack().getCount()));
             }
 
@@ -63,6 +65,10 @@ public class GodsBlock extends Block {
         super.onSteppedOn(world, pos, state, entity);
 
 
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+     return stack.isIn(ModTags.Items.TITEMS);
     }
 
     @Override

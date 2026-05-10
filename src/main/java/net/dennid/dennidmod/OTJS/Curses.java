@@ -17,24 +17,32 @@ public class Curses {
     }
     if(ChiselItem.i < 90){
         a.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 9999, 1, true, true));
+
     }
     if(ChiselItem.i < 50){
-        a.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS));
+        a.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 9999 , 1, true , true));
+
     }
-    if(ChiselItem.i < 10){
+    if(ChiselItem.i < 30){
         a.addStatusEffect(new StatusEffectInstance(StatusEffects.BAD_OMEN, 9999, 5, true, true));
+
     }
-    if(ChiselItem.i == 0){
-        a.kill();
+    if(ChiselItem.i <= 0){
+        a.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 999999999, 255, true, true));
+    ChiselItem.i = 20;
+
     }
     if(ChiselItem.i > 1000){
         a.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 9999, 3, true, true));
+
     }
     if(ChiselItem.i > 1500){
         a.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 9999, 3, true, true));
+
     }
     if(ChiselItem.i > 10000){
         a.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 999999999, 5, true, true));
+
     }
 
 

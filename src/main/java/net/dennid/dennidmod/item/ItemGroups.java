@@ -36,6 +36,9 @@ public class ItemGroups {
                                 entries.add(ModItems.POT);
                                 entries.add(ModItems.CHISEL);
                                 entries.add(ModItems.ENRRUBIE);
+                                entries.add(ModItems.RUBIE_PIC);
+                                entries.add(ModItems.RUBIE_SWO);
+                                entries.add(ModItems.RUBIE_AXE);
 
 
 
