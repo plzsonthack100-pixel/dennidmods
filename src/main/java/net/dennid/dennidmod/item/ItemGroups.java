@@ -54,6 +54,10 @@ public class ItemGroups {
                                 entries.add(ModItems.RAIBOW_RUBIE_AXE);
                                 entries.add(ModItems.RAINBOW_RUBIE_SWORD);
                                 entries.add(ModItems.RAINBOW_RUBIE_PIC);
+                                entries.add(ModItems.ENRAINBOW_RUBIE_AXE);
+                                entries.add(ModItems.ENRAINBOW_RUBIE_PIC);
+                                entries.add(ModItems.ENRAINBOW_RUBIE_SWORD);
+
 
 
 

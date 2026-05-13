@@ -22,7 +22,7 @@ public enum ModToolMaterials implements ToolMaterial {
     YRUBIE(ModTags.Blocks.INCORECT, 2100, 11.0F, 5.00F, 30, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RYELLOW})),
     BBRUBIE(ModTags.Blocks.INCORECT, 2200, 12.0F, 6.00F, 35, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.BLACKR})),
     RRUBIE(ModTags.Blocks.INCORECT, 2300, 13.0F, 7.00F, 40, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RAINBOWR})),
-    ENRRUBIE(ModTags.Blocks.INCORECT, 99999999, 5.0F, 7.00F, 40, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RAINBOWR})),
+    ENRRUBIE(ModTags.Blocks.INCORECT, 99999999, 5.0F, 9.00F, 40, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RAINBOWR})),
 
     ;
 

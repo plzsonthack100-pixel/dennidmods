@@ -64,13 +64,17 @@ public static Item GREEN_RUBIE_SWORD = registermoditems("green_rubie_sword", new
     public static Item BLACK_RUBIE_AXE = registermoditems("black_rubie_axe", new AxeItem(ModToolMaterials.BBRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BBRUBIE,
             8, -2.1f))));
     public static Item RAIBOW_RUBIE_AXE = registermoditems("rainow_rubie_axe", new AxeItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.RUBIE,
-            -2, -2.0f))));
+            6, -2.0f))));
     public static Item RAINBOW_RUBIE_SWORD = registermoditems("rainbow_rubie_sword", new SwordItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
-            ModToolMaterials.RRUBIE, -4, -1.50f))));
+            ModToolMaterials.RRUBIE, 5, -1.50f))));
     public static Item RAINBOW_RUBIE_PIC = registermoditems("rainbow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.RRUBIE, -5, -1.90f))));
-    public static Item ENRAINBOW_RUBIE_PIC = registermoditems("rainbow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.RRUBIE, -5, -1.90f))));
+            ModToolMaterials.RRUBIE, 3, -1.90f))));
+    public static Item ENRAINBOW_RUBIE_PIC = registermoditems("enchanted_rainbow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
+            ModToolMaterials.ENRRUBIE, -3, -1.50f))));
+    public static Item ENRAINBOW_RUBIE_AXE = registermoditems("enchanted_rainbow_rubie_axe", new PickaxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
+            ModToolMaterials.ENRRUBIE, -2, -1.50f))));
+    public static Item ENRAINBOW_RUBIE_SWORD = registermoditems("enchanted_rainbow_rubie_sword", new PickaxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
+            ModToolMaterials.ENRRUBIE, -1, 10000))));
     public static void register(){
        DennidMods.LOGGER.info("Registing item " + DennidMods.MOD_ID);
 
