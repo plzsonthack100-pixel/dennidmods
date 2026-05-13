@@ -39,6 +39,22 @@ public class ItemGroups {
                                 entries.add(ModItems.RUBIE_PIC);
                                 entries.add(ModItems.RUBIE_SWO);
                                 entries.add(ModItems.RUBIE_AXE);
+                                entries.add(ModItems.BLUE_RUBIE_PIC);
+                                entries.add(ModItems.BLUE_RUBIE_AXE);
+                                entries.add(ModItems.BLUE_RUBIE_SWO);
+                               entries.add(ModItems.GREEN_RUBIE_AXE);
+                                entries.add(ModItems.GREEN_RUBIE_PIC);
+                                entries.add(ModItems.GREEN_RUBIE_SWORD);
+                                entries.add(ModItems.YELLOW_RUBIE_AXE);
+                                entries.add(ModItems.YELLOW_RUBIE_PIC);
+                                entries.add(ModItems.YELLOW_RUBIE_SWORD);
+                                entries.add(ModItems.BLACK_RUBIE_AXE);
+                                entries.add(ModItems.BLACK_RUBIE_SWORD);
+                                entries.add(ModItems.BLACK_RUBIE_PIC);
+                                entries.add(ModItems.RAIBOW_RUBIE_AXE);
+                                entries.add(ModItems.RAINBOW_RUBIE_SWORD);
+                                entries.add(ModItems.RAINBOW_RUBIE_PIC);
+
 
 
 

@@ -23,6 +23,24 @@
   "tooltip.dennidmods.ChiselItem.tooltipsift": "This item gives you good karma when you destroy a block,with that karma you can do some things )",
   "tooltip.dennidmods.ChiselItem.tooltipsi" : "This item give you good karma when you...(press sift for more info)",
   "tooltip.dennidmods.ChiselItem.tooltipsifts" : "but be cearfull if you sucurfise to gods something that is not worthit you might lose ",
-  "tooltip.dennidmods.GodsBlock.tooltip2" : "karma points"
+  "tooltip.dennidmods.GodsBlock.tooltip2" : "karma points",
+  "item.dennidmods.rubie_axe": "red rubie axe",
+  "item.dennidmods.rubie_sword": "red rubie axe",
+  "item.dennidmods.rubie_pickaxe": "red rubie pickaxe",
+  "item.dennidmods.blue_rubie_pickaxe": "blue rubie pickaxe",
+  "item.dennidmods.blue_rubie_sword": "blue rubie sword",
+  "item.dennidmods.blue_rubie_axe": "blue rubie axe",
+  "item.dennidmods.green_rubie_pickaxe": "green rubie pickaxe",
+  "item.dennidmods.green_rubie_sword": "green rubie sword",
+  "item.dennidmods.green_rubie_axe": "green rubie axe",
+  "item.dennidmods.yellow_rubie_pickaxe": "yellow rubie pickaxe",
+  "item.dennidmods.yellow_rubie_sword": "yellow rubie sword",
+  "item.dennidmods.yellow_rubie_axe": "yellow rubie axe",
+  "item.dennidmods.rainow_rubie_axe": "rainbow rubie axe",
+  "item.dennidmods.rainbow_rubie_pickaxe": "rainbow rubie axe",
+  "item.dennidmods.rainbow_rubie_sword": "rainbow rubie sword"
+
+
+
 
 }
