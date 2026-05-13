@@ -1,0 +1,33 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+   "key" : {
+     "#" : {
+       "item" : "dennidmods:rubie"
+     },
+     "!" : {
+       "item" : "dennidmods:bluer"
+     },
+     "&" : {
+       "item" : "dennidmods:blackr"
+     },
+     "%" : {
+       "item" : "dennidmods:ryellow"
+     },
+     "@" : {
+       "item" : "dennidmods:greenr"
+     }},
+     "pattern" : [
+       "!&!",
+       "%#@",
+       "###"
+
+     ],
+     "result" : {
+       "count" : 1,
+       "id" : "dennidmods:rainbowr"
+     }
+
+
+
+   }

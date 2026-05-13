@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key": {
+    "#": {
+      "item": "dennidmods:rubie"
+    },
+    "!" : {
+      "item" : "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern" : [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result" : {
+    "count" : 1,
+    "id" : "dennidmods:bluer"
+  }
+}

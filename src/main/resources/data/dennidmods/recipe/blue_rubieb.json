@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item" : "dennidmods:blue_rubieb"
+    }
+  ],
+  "result" : {
+    "count" : 9,
+    "id" : "dennidmods:bluer"
+  }
+}
