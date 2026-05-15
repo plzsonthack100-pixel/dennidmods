@@ -1,1 +1,0 @@
-Coming soon in the update 1.0
