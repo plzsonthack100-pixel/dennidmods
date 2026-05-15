@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "dennidmods:gyros"
+    },
+    "!": {
+      "item": "dennidmods:cut_potato"
+    },
+    "@": {
+      "item": "dennidmods:pita"
+    }
+  },
+  "pattern": [
+    "###",
+    "!!!",
+    "@@@"
+
+  ],
+  "result": {
+    "count": 1,
+    "id": "dennidmods:souvlaki"
+  }
+}

@@ -22,7 +22,7 @@
 			"net.dennid.dennidmod.DennidModsDataGenerator"
 		],
       "client": [
-        "net.dennid.dennidmod.DennidModClient"
+        "net.dennid.dennidmod.DennidModsClient"
       ]
 	},
 	"mixins": [

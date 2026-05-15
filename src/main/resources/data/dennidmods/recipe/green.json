@@ -1,0 +1,24 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key": {
+    "#":{
+      "item": "dennidmods:bluer"
+    },
+    "!": {
+      "item": "minecraft:emerald"
+    }
+  },
+    "pattern": [
+      "###",
+      "#!#",
+      "###"
+    ],
+    "result": {
+      "count": 1,
+      "id": "dennidmods:greenr"
+    }
+
+
+
+}

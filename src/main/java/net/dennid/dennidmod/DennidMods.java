@@ -1,5 +1,9 @@
 package net.dennid.dennidmod;
 
+import net.dennid.dennidmod.block.ModBlocks;
+import net.dennid.dennidmod.item.ChiselItem;
+import net.dennid.dennidmod.item.ItemGroups;
+import net.dennid.dennidmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +17,8 @@ public class DennidMods implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        ModItems.register();
+        ModBlocks.RMB();
+        ItemGroups.RegisterItemGroup();
 	}
 }
