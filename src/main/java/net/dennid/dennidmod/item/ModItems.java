@@ -33,48 +33,27 @@ public class ModItems {
     public static Item PIT = registermoditems("pita", new Item(new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
     public static Item CHISEL = registermoditems("chisel", new ChiselItem(new Item.Settings().maxDamage(80)));
     public static Item ENRRUBIE = registermoditems("enchanted_rainbow_rubie", new Item(new Item.Settings()));
-    public static Item RUBIE_PIC = registermoditems("rubie_pickaxe", new PickaxeItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBIE, 4
-    , -2.4f))));
-    public static Item RUBIE_SWO = registermoditems("rubie_sword", new SwordItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials
-                    .RUBIE, 3, -2.1f))));
-    public static Item RUBIE_AXE = registermoditems("rubie_axe", new AxeItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials
-            .RUBIE, 5, -2.60f))));
-    public static Item BLUE_RUBIE_PIC = registermoditems("blue_rubie_pickaxe", new PickaxeItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBIE,
-            4, -2.3f))));
-    public static Item BLUE_RUBIE_AXE = registermoditems("blue_rubie_axe", new AxeItem(ModToolMaterials.BRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BRUBIE,
-            6, -2.5f))));
-    public static Item BLUE_RUBIE_SWO = registermoditems("blue_rubie_sword", new AxeItem(ModToolMaterials.BRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BRUBIE,
-            3.9f, -1.99f))));
-    public static Item GREEN_RUBIE_PIC = registermoditems("green_rubie_pickaxe", new PickaxeItem(ModToolMaterials.GRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.GRUBIE, 4, -2.2f))));
-public static Item GREEN_RUBIE_SWORD = registermoditems("green_rubie_sword", new SwordItem(ModToolMaterials.GRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
-        ModToolMaterials.GRUBIE, 5, -1.80f))));
-    public static Item GREEN_RUBIE_AXE = registermoditems("green_rubie_axe", new AxeItem(ModToolMaterials.GRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.GRUBIE,
-            6, -2.6f))));
-    public static Item YELLOW_RUBIE_PIC = registermoditems("yellow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.YRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.YRUBIE, 4, -2.0f))));
-    public static Item YELLOW_RUBIE_SWORD = registermoditems("yellow_rubie_sword", new SwordItem(ModToolMaterials.YRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
-            ModToolMaterials.YRUBIE, 6, -1.70f))));
-    public static Item YELLOW_RUBIE_AXE = registermoditems("yellow_rubie_axe", new AxeItem(ModToolMaterials.YRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.YRUBIE,
-            7, -2.3f))));
-    public static Item BLACK_RUBIE_PIC = registermoditems("black_rubie_pickaxe", new PickaxeItem(ModToolMaterials.BBRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.BBRUBIE, 5, -1.90f))));
-    public static Item BLACK_RUBIE_SWORD = registermoditems("black_rubie_sword", new SwordItem(ModToolMaterials.BBRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
-            ModToolMaterials.BBRUBIE, 7, -1.60f))));
-    public static Item BLACK_RUBIE_AXE = registermoditems("black_rubie_axe", new AxeItem(ModToolMaterials.BBRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BBRUBIE,
-            8, -2.1f))));
-    public static Item RAIBOW_RUBIE_AXE = registermoditems("rainow_rubie_axe", new AxeItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.RUBIE,
-            6, -2.0f))));
-    public static Item RAINBOW_RUBIE_SWORD = registermoditems("rainbow_rubie_sword", new SwordItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
-            ModToolMaterials.RRUBIE, 5, -1.50f))));
-    public static Item RAINBOW_RUBIE_PIC = registermoditems("rainbow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.RRUBIE, 3, -1.90f))));
-    public static Item ENRAINBOW_RUBIE_PIC = registermoditems("enchanted_rainbow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.ENRRUBIE, -3, -1.50f))));
-    public static Item ENRAINBOW_RUBIE_AXE = registermoditems("enchanted_rainbow_rubie_axe", new PickaxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.ENRRUBIE, -2, -1.50f))));
-    public static Item ENRAINBOW_RUBIE_SWORD = registermoditems("enchanted_rainbow_rubie_sword", new PickaxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterials.ENRRUBIE, -1, 10000))));
+    public static Item RUBIE_PIC = registermoditems("rubie_pickaxe", new PickaxeItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBIE, 1, -2.8f))));
+    public static Item RUBIE_SWO = registermoditems("rubie_sword", new AxeItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RUBIE, 3, -2.4f))));
+    public static Item RUBIE_AXE = registermoditems("rubie_axe", new AxeItem(ModToolMaterials.RUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.RUBIE, 5, -3.0f))));
+    public static Item BLUE_RUBIE_PIC = registermoditems("blue_rubie_pickaxe", new PickaxeItem(ModToolMaterials.BRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BRUBIE, 1, -2.8f))));
+    public static Item BLUE_RUBIE_AXE = registermoditems("blue_rubie_axe", new AxeItem(ModToolMaterials.BRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BRUBIE, 5, -3.0f))));
+    public static Item BLUE_RUBIE_SWO = registermoditems("blue_rubie_sword", new AxeItem(ModToolMaterials.BRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BRUBIE, 3, -2.4f))));
+    public static Item GREEN_RUBIE_PIC = registermoditems("green_rubie_pickaxe", new PickaxeItem(ModToolMaterials.GRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.GRUBIE, 1, -2.8f))));
+    public static Item GREEN_RUBIE_SWORD = registermoditems("green_rubie_sword", new SwordItem(ModToolMaterials.GRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.GRUBIE, 3, -2.4f))));
+    public static Item GREEN_RUBIE_AXE = registermoditems("green_rubie_axe", new AxeItem(ModToolMaterials.GRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.GRUBIE, 5, -3.0f))));
+    public static Item YELLOW_RUBIE_PIC = registermoditems("yellow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.YRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.YRUBIE, 1, -2.8f))));
+    public static Item YELLOW_RUBIE_SWORD = registermoditems("yellow_rubie_sword", new SwordItem(ModToolMaterials.YRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.YRUBIE, 3, -2.4f))));
+    public static Item YELLOW_RUBIE_AXE = registermoditems("yellow_rubie_axe", new AxeItem(ModToolMaterials.YRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.YRUBIE, 5, -3.0f))));
+    public static Item BLACK_RUBIE_PIC = registermoditems("black_rubie_pickaxe", new PickaxeItem(ModToolMaterials.BBRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BBRUBIE, 1, -2.8f))));
+    public static Item BLACK_RUBIE_SWORD = registermoditems("black_rubie_sword", new SwordItem(ModToolMaterials.BBRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BBRUBIE, 3, -2.4f))));
+    public static Item BLACK_RUBIE_AXE = registermoditems("black_rubie_axe", new AxeItem(ModToolMaterials.BBRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BBRUBIE, 5, -3.0f))));
+    public static Item RAIBOW_RUBIE_AXE = registermoditems("rainow_rubie_axe", new AxeItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.RRUBIE, 5, -3.0f))));
+    public static Item RAINBOW_RUBIE_SWORD = registermoditems("rainbow_rubie_sword", new SwordItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RRUBIE, 3, -2.4f))));
+    public static Item RAINBOW_RUBIE_PIC = registermoditems("rainbow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.RRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RRUBIE, 1, -2.8f))));
+    public static Item ENRAINBOW_RUBIE_PIC = registermoditems("enchanted_rainbow_rubie_pickaxe", new PickaxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.ENRRUBIE, 1, -2.8f))));
+    public static Item ENRAINBOW_RUBIE_AXE = registermoditems("enchanted_rainbow_rubie_axe", new AxeItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ENRRUBIE, 5, -3.0f))));
+    public static Item ENRAINBOW_RUBIE_SWORD = registermoditems("enchanted_rainbow_rubie_sword", new SwordItem(ModToolMaterials.ENRRUBIE, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ENRRUBIE, 3, -2.4f))));
     public static void register(){
        DennidMods.LOGGER.info("Registing item " + DennidMods.MOD_ID);
 

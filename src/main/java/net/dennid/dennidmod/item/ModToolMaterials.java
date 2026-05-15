@@ -16,13 +16,13 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    RUBIE(ModTags.Blocks.INCORECT, 1861, 8.60F, 3.50F, 22, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RUBIE})),
-    BRUBIE(ModTags.Blocks.INCORECT, 1991, 9.0F, 4.50F, 25, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.BLUER})),
-    GRUBIE(ModTags.Blocks.INCORECT, 2000, 10.0F, 4.60F, 27, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.GREENR})),
-    YRUBIE(ModTags.Blocks.INCORECT, 2100, 11.0F, 5.00F, 30, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RYELLOW})),
-    BBRUBIE(ModTags.Blocks.INCORECT, 2200, 12.0F, 6.00F, 35, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.BLACKR})),
-    RRUBIE(ModTags.Blocks.INCORECT, 2300, 13.0F, 7.00F, 40, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RAINBOWR})),
-    ENRRUBIE(ModTags.Blocks.INCORECT, 99999999, 5.0F, 9.00F, 40, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RAINBOWR})),
+    RUBIE(ModTags.Blocks.INCORECT, 250, 5.0F, 1.5F, 10, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RUBIE})),
+    BRUBIE(ModTags.Blocks.INCORECT, 500, 6.0F, 2.0F, 11, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.BLUER})),
+    GRUBIE(ModTags.Blocks.INCORECT, 750, 7.0F, 2.5F, 12, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.GREENR})),
+    YRUBIE(ModTags.Blocks.INCORECT, 1000, 7.5F, 2.5F, 13, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RYELLOW})),
+    BBRUBIE(ModTags.Blocks.INCORECT, 1400, 8.0F, 3.0F, 14, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.BLACKR})),
+    RRUBIE(ModTags.Blocks.INCORECT, 1700, 8.5F, 3.0F, 14, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RAINBOWR})),
+    ENRRUBIE(ModTags.Blocks.INCORECT, 2000, 9.0F, 3.5F, 15, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.RAINBOWR})),
 
     ;
 
